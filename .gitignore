@@ -1,0 +1,9 @@
+/doc/
+/libs/
+/lib/
+/.crystal/
+/.shards/
+.env
+node_modules/
+
+
