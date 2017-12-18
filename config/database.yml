@@ -1,2 +1,6 @@
 pg:
-  database: postgresql://pgamber:fr3dd@jradd.com:5432/amber_blog
+## Be sure to change:
+## EXAMPLE
+## export dbconnect=postgresql://${dbuser}:${supersecret}@${dbhost}:5432/${dbname} */
+  database: ${dbconnect}
+
